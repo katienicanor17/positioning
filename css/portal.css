@@ -1,28 +1,30 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Libre+Baskerville&display=swap');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-image: url("/images/journey.jpg");
+    font-family: 'Courgette', cursive;
+    font-family: 'Libre Baskerville', serif;
     font-size: 0.95em;
     line-height: 1.5em;
+    color: aliceblue;
 }
 
 ::selection {
-    color: #000; 
-    background: #ff0;
+    color: #180b03; 
+    /*background:#b7b7a4;*/
 }
 
 h1 {
+    color: aliceblue;
     font-weight: normal;
     margin: auto;
-    background: #fff;
+    /*background: #a5a58d;*/
     line-height: 2.5em;
 }
 
 main.wrapper {
-    background-color: white;
     overflow: auto;
 }
 
@@ -31,19 +33,20 @@ p {
 }
 
 h2,h3 {
+    color: aliceblue;
     font-weight: normal;
     margin-left: 1em;
     line-height: 1em;
 }
 
 a {
-    color:darkcyan;
+    color: #f2e9e4;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: #4d2a1a;
     text-decoration: none;
 }
 
