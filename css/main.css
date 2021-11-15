@@ -3,21 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Libre+Baskerville&display=swap');
 
 html {
-    background-image: url("/images/journey.jpg");
+    background-color: white;
     font-family: 'Courgette', cursive;
     font-family: 'Libre Baskerville', serif;
     font-size: 0.95em;
     line-height: 1.5em;
-    color: aliceblue;
+    color: black;
 }
 
 ::selection {
-    color: #180b03; 
+    color: #212b05; 
     /*background:#b7b7a4;*/
 }
 
 h1 {
-    color: aliceblue;
+    color: black;
     font-weight: normal;
     margin: auto;
     /*background: #a5a58d;*/
@@ -33,20 +33,20 @@ p {
 }
 
 h2,h3 {
-    color: aliceblue;
+    color: black;
     font-weight: normal;
     margin-left: 1em;
     line-height: 1em;
 }
 
 a {
-    color: #f2e9e4;
+    color: #030100;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: #4d2a1a;
+    background-color: #2d677e;
     text-decoration: none;
 }
 
